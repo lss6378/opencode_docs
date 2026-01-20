@@ -34,26 +34,7 @@ export default defineConfig({
       label: '本页目录'
     },
     search: {
-      provider: 'local',
-      options: {
-        locales: {
-          root: {
-            translations: {
-              button: {
-                buttonText: '搜索',
-                buttonAriaLabel: '搜索'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
-                }
-              }
-            }
-          }
-        }
-      }
+      provider: 'local'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lss6378/opencode_docs' }
@@ -102,30 +83,8 @@ export default defineConfig({
           label: 'On this page'
         },
         search: {
-          provider: 'local',
-          options: {
-            locales: {
-              en: {
-                translations: {
-                  button: {
-                    buttonText: 'Search',
-                    buttonAriaLabel: 'Search'
-                  },
-                  modal: {
-                    noResultsText: 'No results for',
-                    footer: {
-                      selectText: 'to select',
-                      navigateText: 'to navigate'
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        socialLinks: [
-          { icon: 'github', link: 'https://github.com/lss6378/opencode_docs' }
-        ]
+          provider: 'local'
+        }
       }
     }
   }
